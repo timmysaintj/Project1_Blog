@@ -1,9 +1,13 @@
-@import "header.css";
+@import "menu.css";
 
-.parent {
+body {
+	background-image: url("../images/bubble.png");
+}
+
+.container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 50px 100px 300px 300px 30px;
+  grid-template-rows: 30px 100px 300px 300px 30px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   border: 2px solid yellow;
@@ -15,6 +19,7 @@
 }
 
 .header {
+  display: inline-block;
   grid-area: 1 / 1 / 2 / 7;
 }
 
