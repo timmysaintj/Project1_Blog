@@ -2,7 +2,7 @@ ul {
   list-style-type: none;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 99%;
   background-color: #333;
   overflow: hidden;
   margin: 0;
@@ -31,7 +31,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4caf50;
+color: #4caf50;
 }
 
 .fltright {

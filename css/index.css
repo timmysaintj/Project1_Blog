@@ -1,4 +1,6 @@
 @import "menu.css";
+@import "info.css";
+@import "footer.css";
 
 body {
 	background-image: url("../images/bubble.png");
@@ -10,7 +12,6 @@ body {
   grid-template-rows: 30px 100px 300px 300px 30px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
-  border: 2px solid yellow;
 }
 
 .box {
