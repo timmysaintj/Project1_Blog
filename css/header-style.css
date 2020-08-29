@@ -1,0 +1,44 @@
+ul {
+  font: 300 1.2em/1.6 roboto, sans-serif;
+  color: #303030;
+  text-rendering: optimizeLegibility;
+  margin: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.topnav {
+  background: #0091ea;
+  margin: -1.5em;
+  padding: 0 1.5em;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background: #407096;
+}
+
+.topnav a.active {
+  color: #294860;
+}
+
+.topnav-right {
+  display: flex;
+  float: right;
+}
+
+.topnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav li {
+  display: inline-block;
+}

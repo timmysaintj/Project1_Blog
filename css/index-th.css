@@ -1,0 +1,42 @@
+@import "header-style.css";
+
+body {
+	background-image: url("../images/bubble.png");
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 600px 30px;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    border: 2px solid yellow;
+}
+
+.box{
+  border: 1px solid red;
+  background: #F8FA9D;
+  }
+
+.main {
+  display: flex;
+  grid-area: main;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffeb3b;
+  font-weight: bold;
+  font-size: 96px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.footer {
+	display: flex;
+  grid-area: ft;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffeb3b;
+	font-weight: bold;
+}
