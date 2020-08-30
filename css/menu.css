@@ -5,6 +5,7 @@ ul {
   width: 99%;
   background-color: #333;
   overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
   margin: 0;
   padding: 0;
 }
