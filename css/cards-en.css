@@ -1,0 +1,45 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+  transition: 0.3s;
+  width: 70%;
+  border-radius: 5px;
+}
+
+/* set the last hover attribute higher to get a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 255, 0, 0.9);
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  height: 60%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
