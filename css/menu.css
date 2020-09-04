@@ -8,6 +8,7 @@ ul {
   border-radius: 5px 5px 5px 5px;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 li {
@@ -32,9 +33,13 @@ li a:hover:not(.active) {
 }
 
 .active {
-color: #4caf50;
+  color: #4caf50;
 }
 
 .fltright {
   float: right;
+}
+
+.flags {
+  padding-top: 3px;
 }
