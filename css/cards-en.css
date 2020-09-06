@@ -5,6 +5,10 @@
   border-radius: 5px;
 }
 
+img.cardwidth {
+  width: 100%;
+}
+
 /* set the last hover attribute higher to get a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 255, 0, 0.9);
