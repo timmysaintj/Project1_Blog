@@ -168,7 +168,7 @@ input[type=submit]:hover {
 
 @media(min-width:600px) and (max-width: 900px) {
   display: grid;
-  grid-template-columns: repeat(5, 200px 100px 610px 200px);
+  grid-template-columns: repeat(5, 100px 100px 310px 100px);
   grid-template-rows: 30px 100px 100px 750px 40px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
