@@ -15,14 +15,6 @@ body {
   grid-template-rows: 30px 100px 400px 400px 30px;
   grid-column-gap: 0px;
   grid-row-gap: 5px;
-  grid-template-areas:
-  "hd hd hd hd hd hd"
-  "info info info info info info"
-  "blog-1 blog-1"
-  "blog-2 blog-2"
-  "blog-3 blog-3"
-  "blog-4 blog-4"
-  "footer footer footer footer footer footer"
 }
 
 /* Using this box is extremely helpful. It made seeing my grid a lot easier
@@ -66,34 +58,12 @@ body {
   grid-area: 6 / 1 / 7 / 7;
 }
 
-@media screen and (max-width: 992px){
+@media (min-width: 600px) and (max-width: 901px){
   .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 30px 100px 400px 400px 30px;
+    grid-template-columns: repeat(5, 120px 200px 100px 200px 100px);
+    grid-template-rows: 30px 100px 450px 450px 40px;
     grid-column-gap: 0px;
     grid-row-gap: 5px;
-    grid-template-areas:
-    "hd hd hd hd hd hd"
-    "info info info info info info"
-    "blog-1 blog-1"
-    "blog-2 blog-2"
-    "blog-3 blog-3"
-    "blog-4 blog-4"
-    "footer footer footer footer footer footer"
   }
-
-@media screen and (max-width: 600px) {
-  .container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 30px 100px 400px 400px 30px;
-    grid-column-gap: 0px;
-    grid-row-gap: 5px;
-    grid-template-areas:
-    "hd hd hd hd"
-    "info info"
-    "blog-1 blog-2"
-    "blog-3 blog-4"
-    "footer footer footer footer"
-  }
+}
